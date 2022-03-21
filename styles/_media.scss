@@ -123,6 +123,7 @@
 
 @media screen and (max-width: 619px) {
    header {
+      height: 100vh !important;
       padding: 0;
       .right-header {
          padding: 0 !important;
