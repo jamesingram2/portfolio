@@ -2,8 +2,11 @@
    header {
       padding: 0;
    }
-   header .right-header {
+   .right-header {
       padding: 0 !important;
+      .name {
+         font-size: 1.8rem !important;
+      }
    }
 
    .theme-btn {
@@ -161,6 +164,11 @@
 }
 
 @media screen and (max-width: 800px) {
+   .right-header {
+      .name {
+         font-size: 2rem !important;
+      }
+   }
    .section {
       padding: 7rem 3rem;
    }
