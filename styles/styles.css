@@ -58,7 +58,7 @@ header {
   overflow: hidden;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1550px) {
   header {
     min-height: 100vh !important;
   }

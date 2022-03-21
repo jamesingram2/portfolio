@@ -54,7 +54,7 @@ header {
    height: 100vh;
    color: var(--color-white);
    overflow: hidden;
-   @media screen and (max-width:800px) {
+   @media screen and (max-width:1550px) {
       min-height: 100vh !important;
    }
 }
