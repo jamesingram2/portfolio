@@ -58,12 +58,9 @@ header {
   overflow: hidden;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   header {
-    min-height: 100vh;
-  }
-  header .right-header .name {
-    font-size: 1.5rem !important;
+    min-height: 100vh !important;
   }
 }
 
@@ -970,7 +967,7 @@ section {
   padding: 1rem;
 }
 
-.main-btn::before {
+.main-btn:before {
   content: "";
   position: absolute;
   top: 0;
@@ -1027,9 +1024,6 @@ section {
   }
   header .right-header {
     padding: 0 !important;
-  }
-  header .right-header .name {
-    font-size: 1.5rem !important;
   }
   .theme-btn {
     width: 50px;
@@ -1178,14 +1172,11 @@ section {
     padding: 7rem 6rem;
   }
   header .right-header .name {
-    font-size: 1.5rem !important;
+    font-size: 1.3rem !important;
   }
 }
 
 @media screen and (max-width: 800px) {
-  .section {
-    padding: 7rem 3rem !important;
-  }
   .about-stats .progress-bars {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
