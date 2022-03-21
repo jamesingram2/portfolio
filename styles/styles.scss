@@ -54,8 +54,13 @@ header {
    min-height: 100vh;
    color: var(--color-white);
    overflow: hidden;
-   @media screen and (max-width:610px) {
+   @media screen and (max-width:600px) {
       min-height: 100vh;
+      .right-header {
+         .name {
+            font-size: 1.5rem !important;
+         }
+      }
    }
 }
 

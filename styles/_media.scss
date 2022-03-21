@@ -1,11 +1,11 @@
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 619px) {
    header {
       padding: 0;
-   }
-   .right-header {
-      padding: 0 !important;
-      .name {
-         font-size: 1.8rem !important;
+      .right-header {
+         padding: 0 !important;
+         .name {
+            font-size: 1.5rem !important;
+         }
       }
    }
 
@@ -57,24 +57,25 @@
 }
 
 @media screen and (max-width: 1550px) {
-   .header-content {
-      grid-template-columns: 1fr;
-      padding-bottom: 6rem;
-   }
-
-   .left-header {
-      .h-shape {
-         display: none;
+   header {
+      .header-content {
+         grid-template-columns: 1fr;
+         padding-bottom: 6rem;
       }
-   }
-
-   .right-header {
-      grid-row: 1;
-      width: 90%;
-      margin: 0 auto;
-
-      .name {
-         font-size: 2rem !important;
+   
+      .left-header {
+         .h-shape {
+            display: none;
+         }
+      }
+   
+      .right-header {
+         grid-row: 1;
+         width: 90%;
+         margin: 0 auto;
+         .name {
+            font-size: 2rem;
+         }
       }
    }
 
@@ -161,16 +162,18 @@
    .section {
       padding: 7rem 6rem;
    }
+   header {
+      .right-header {
+         .name {
+            font-size: 1.5rem !important;
+         }
+      }
+   }
 }
 
 @media screen and (max-width: 800px) {
-   .right-header {
-      .name {
-         font-size: 2rem !important;
-      }
-   }
    .section {
-      padding: 7rem 3rem;
+      padding: 7rem 3rem !important;
    }
    .about-stats {
       .progress-bars {
