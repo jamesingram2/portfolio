@@ -53,15 +53,9 @@ a {
 }
 
 header {
-  min-height: 100vh;
+  height: 100vh;
   color: var(--color-white);
   overflow: hidden;
-}
-
-@media screen and (max-width: 800px) {
-  header {
-    min-height: 100vh !important;
-  }
 }
 
 section {
@@ -239,7 +233,7 @@ section {
   display: grid;
   -ms-grid-columns: (1fr)[2];
       grid-template-columns: repeat(2, 1fr);
-  min-height: 100vh;
+  height: 100vh;
 }
 
 .header-content .left-header {
@@ -1018,56 +1012,6 @@ section {
   font-size: 5.5rem;
 }
 
-@media screen and (max-width: 619px) {
-  header {
-    padding: 0;
-  }
-  header .right-header {
-    padding: 0 !important;
-  }
-  .theme-btn {
-    width: 50px;
-    height: 50px;
-  }
-  .about-container {
-    -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
-  }
-  .about-container .right-about {
-    -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
-    padding-top: 2.5rem;
-  }
-  .about-container .left-about {
-    padding-right: 0;
-  }
-  .about-container .left-about p {
-    padding-left: 0;
-  }
-  .timeline {
-    -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
-    padding-bottom: 6rem;
-  }
-  .about-stats .progress-bars {
-    -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
-  }
-  .portfolios {
-    -ms-grid-columns: 1fr !important;
-        grid-template-columns: 1fr !important;
-    padding-bottom: 6rem;
-  }
-  .blogs {
-    -ms-grid-columns: 1fr !important;
-        grid-template-columns: 1fr !important;
-    padding-bottom: 6rem;
-  }
-  .section {
-    padding: 2rem 2.5rem !important;
-  }
-}
-
 @media screen and (max-width: 1550px) {
   header .header-content {
     -ms-grid-columns: 1fr;
@@ -1172,7 +1116,7 @@ section {
     padding: 7rem 6rem;
   }
   header .right-header .name {
-    font-size: 1.3rem !important;
+    font-size: 1.5rem !important;
   }
 }
 
@@ -1180,6 +1124,59 @@ section {
   .about-stats .progress-bars {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 619px) {
+  header {
+    padding: 0;
+  }
+  header .right-header {
+    padding: 0 !important;
+  }
+  header p {
+    font-size: 1rem;
+  }
+  .theme-btn {
+    width: 50px;
+    height: 50px;
+  }
+  .about-container {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .about-container .right-about {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    padding-top: 2.5rem;
+  }
+  .about-container .left-about {
+    padding-right: 0;
+  }
+  .about-container .left-about p {
+    padding-left: 0;
+  }
+  .timeline {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    padding-bottom: 6rem;
+  }
+  .about-stats .progress-bars {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .portfolios {
+    -ms-grid-columns: 1fr !important;
+        grid-template-columns: 1fr !important;
+    padding-bottom: 6rem;
+  }
+  .blogs {
+    -ms-grid-columns: 1fr !important;
+        grid-template-columns: 1fr !important;
+    padding-bottom: 6rem;
+  }
+  .section {
+    padding: 2rem 2.5rem !important;
   }
 }
 /*# sourceMappingURL=styles.css.map */
