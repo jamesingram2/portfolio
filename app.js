@@ -3,6 +3,24 @@ const sectBtns = document.querySelectorAll(".controls");
 const sectBtn = document.querySelectorAll(".control");
 const allSections = document.querySelector(".main-content");
 
+setTimeout(() => {
+   let typed = new Typed(".auto-input", {
+      strings: [
+         "I am skilled in HTML . . .",
+         "I am skilled in CSS . . .",
+         "I am skilled in JavaScript . . .",
+         "I am skilled in React . . .",
+         "I am skilled in NoSQL and SQL Databases . . .",
+         "I am a Full Stack Developer.",
+         "I am a Full Stack Developer.",
+         "I am passionate about creating beautiful and functional websites and applications, and using technology to solve real-world problems.",
+      ],
+      typeSpeed: 70,
+      backspeed: 50,
+      loop: false,
+   });
+}, 1500);
+
 function pageTransitions() {
    //button click active class
    for (let i = 0; i < sectBtn.length; i++) {
