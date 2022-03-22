@@ -388,7 +388,7 @@ section {
   top: 15px;
   width: 2rem;
   height: 2px;
-  background-color: var(--gray5);
+  background-color: var(--color-gray5);
 }
 
 .about-container .left-about {
