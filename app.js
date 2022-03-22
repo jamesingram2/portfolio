@@ -6,11 +6,11 @@ const allSections = document.querySelector(".main-content");
 setTimeout(() => {
    let typed = new Typed(".auto-input", {
       strings: [
-         "I am skilled in HTML . . .",
-         "I am skilled in CSS . . .",
-         "I am skilled in JavaScript . . .",
-         "I am skilled in React . . .",
-         "I am skilled in NoSQL and SQL Databases . . .",
+         "I am skilled in HTML...",
+         "I am skilled in CSS...",
+         "I am skilled in JavaScript...",
+         "I am skilled in React...",
+         "I am skilled in NoSQL and SQL Databases...",
          "I am a Full Stack Developer.",
          "I am a Full Stack Developer. I'm passionate about creating beautiful and functional websites and applications, and using technology to solve real-world problems.",
       ],
